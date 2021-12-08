@@ -18,7 +18,6 @@ const styles = StyleSheet.create({
     color: '#555',
     marginTop: 20,
   },
-  //Os 9 quadrados que marcamos
   boxJogador: {
     width: 80,
     height: 80,
