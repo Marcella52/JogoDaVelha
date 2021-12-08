@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Text, View, StatusBar, TouchableOpacity} from 'react-native';
+import {Text, View, StatusBar, TouchableOpacity, Image} from 'react-native';
 import styles from './styles';
 
 export default function Jogo() {
@@ -90,7 +90,7 @@ export default function Jogo() {
       <View style={styles.container}>
         <StatusBar style="auto" />
         <Text style={styles.titulo}> Jogo da Velha </Text>
-        <Text style={styles.subtitulo}> Selecione o primeiro jogador </Text>
+        <Text style={styles.subtitulo}> Escolha o primeiro jogador </Text>
 
         <View style={styles.inlineItems}>
           <TouchableOpacity

@@ -3,25 +3,26 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#FFF',
+    backgroundColor: '#708090',
     alignItems: 'center',
     justifyContent: 'center',
   },
   titulo: {
-    fontSize: 30,
+    fontSize: 50,
     fontWeight: 'bold',
-    color: '#333',
+    color: '#ddd',
     marginBottom: 4,
   },
   subtitulo: {
     fontSize: 20,
-    color: '#555',
+    color: '#f5f5dc',
     marginTop: 20,
+    marginBottom: 10,
   },
   boxJogador: {
     width: 80,
     height: 80,
-    backgroundColor: '#ddd',
+    backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
     margin: 3,
@@ -36,18 +37,23 @@ const styles = StyleSheet.create({
   },
   inlineItems: {
     flexDirection: 'row',
-    backgroundColor: '#f5f5dc',
+    backgroundColor: '#c0c0c0',
   },
   botaoMenu: {
     marginTop: 20,
   },
   textoBotaoMenu: {
-    color: '#4e6fe4',
+    color: '#fff5ee',
   },
   ganhador: {
     fontSize: 25,
     fontWeight: 'bold',
     color: '#333',
+  },
+  imagem: {
+    resizeMode: 'contain',
+    height: 100,
+    width: 200,
   },
 });
 
